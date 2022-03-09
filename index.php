@@ -58,7 +58,7 @@
                                     <a href="mark.php?as=concluido&item=<?php echo $item['id']; ?>" class="done-button">Concluído</a>
 
                                 <?php else: ?>
-                                    <a href="mark.php?as=concluido&item=<?php echo $item['id']; ?>" class="done-button">Deletar Tarefa</a>
+                                    <a href="delete.php?id=<?php echo $item['id']?>" class="done-button">Deletar Tarefa</a>
                                 <?php endif; ?>
                                   
                             </li>
